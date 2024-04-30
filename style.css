@@ -6,6 +6,10 @@
   border-radius: 10px;
 }
 
+.body h2 {
+  margin: 0 auto 15px auto;
+}
+
 .main {
   margin: 25px auto 25px auto;
   text-align: center;
