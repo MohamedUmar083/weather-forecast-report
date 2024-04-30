@@ -44,8 +44,9 @@ check.addEventListener("click", () => {
               country == rcdata[i].name.official
             ) {
               div.innerHTML = `
-              <h2 class="text-center">${name}'s Weather Status</h2>
+              
               <div class="container body">
+              <h2 class="text-center">${name}'s Weather Status</h2>
               <div class="row">
               <div class="col-md-6 offset-md-3">
               <div class="card h-100">
