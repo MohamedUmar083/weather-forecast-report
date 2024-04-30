@@ -45,7 +45,7 @@ check.addEventListener("click", () => {
             ) {
               div.innerHTML = `
               <h2 class="text-center">${name}'s Weather Status</h2>
-              <div class="report">
+              <div class="container body">
               <div class="row">
               <div class="col-md-6 offset-md-3">
               <div class="card h-100">
