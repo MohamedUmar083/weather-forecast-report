@@ -27,7 +27,8 @@ check.addEventListener("click", () => {
       let country = data.location.country;
       let update = data.current.last_updated;
       let condition = data.current.condition.text;
-      let temp = data.current.temp_c;
+      let temp_c = data.current.temp_c;
+      let temp_f = data.current.temp_f;
       let humidity = data.current.humidity;
       let icon = data.current.condition.icon;
       //console.log(data);
