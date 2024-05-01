@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  font-family: "Lora", serif;
+}
+
 .body {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -13,11 +19,10 @@
 .main {
   margin: 25px auto 25px auto;
   text-align: center;
-  border: 2px solid;
   border-radius: 10px;
-
   padding-top: 20px;
   padding-bottom: 20px;
+  width: fit-content;
 }
 
 .head {
@@ -53,4 +58,12 @@
 .custom-table {
   margin-top: 20px;
   background-color: #ccc5b9;
+}
+
+.card .card-text {
+  text-align: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
 }
