@@ -6,6 +6,8 @@ let div = document.getElementById("show");
 /* Adding Event Listener for button check */
 
 check.addEventListener("click", () => {
+  div.innerHTML = ""; // Clearing the Previous data inside the div
+
   let cityName = document.getElementById("name").value; // Getting value from the input bar
 
   /* If the value from input bar is emptr it trigger a alert */
@@ -136,7 +138,9 @@ check.addEventListener("click", () => {
         })
         .catch((error2) => console.log(error2));
     })
-    .catch((error) => console.log(error));
+    .catch((error) =>
+      alert(`${cityName} is not found, Check the input format`, error)
+    );
 
   document.getElementById("form").reset();
 });
